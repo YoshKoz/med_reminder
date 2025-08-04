@@ -19,3 +19,4 @@ med_log.json
 *.log
 *.bak
 *_backup*
+data/
