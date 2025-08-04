@@ -27,7 +27,7 @@ class MedReminder:
             ]
             self.reminder_title = "🌆 AFTERNOON MEDICATION TIME!"
         
-        self.log_file = os.path.expanduser("~/../data/med_log.json")
+        self.log_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/med_log.json"))
         self.reminder_count = 0
         self.max_reminders = 10
         
