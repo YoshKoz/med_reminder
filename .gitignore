@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Allow tracked folders and files
+!.gitignore
+!README.md
+!readme.md
+!check_missed_meds.py
+!med_reminder.py
+
+# Allow Downloads folder (but still filter contents)
+!Downloads/
+!Downloads/Yoshi_Tacke_CV_*.txt
+!Downloads/Yoshi_Tacke_Cover_Letter.txt
+!Downloads/.claude/
+
+# Ignore logs, backups, and personal data
+med_log.json
+*.log
+*.bak
+*_backup*
